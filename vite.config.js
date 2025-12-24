@@ -2,9 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/teste677272/',  // <--- Mude isso! Nome do repo com / no início e final
   plugins: [react()],
   server: {
     allowedHosts: true
@@ -22,4 +21,4 @@ export default defineConfig({
       },
     },
   },
-}) 
+})
