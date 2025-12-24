@@ -1,18 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">  <!-- mudei pra pt-BR, já que seu app é em português -->
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="FinanZen.png" />
-    <link rel="manifest" href="manifest.json">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="FinanZen">
-    <link rel="apple-touch-icon" href="/teste677272/icons/FinanZen">
+    <link rel="icon" type="image/png" href="/teste677272/FinanZen.png" />  <!-- caminho completo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FinanZen</title>
+
+    <!-- PWA Meta Tags (compatibilidade máxima iOS + remove aviso depreciado) -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="FinanZen">
+    <meta name="theme-color" content="#10b981">  <!-- combina com seu manifest -->
+
+    <!-- Manifest e Ícones (caminhos completos com subpasta) -->
+    <link rel="manifest" href="/teste677272/manifest.json">
+    <link rel="apple-touch-icon" sizes="192x192" href="/teste677272/icons/finanzen-192.png">  <!-- ajuste nome se diferente -->
+    <!-- Remova icon-180.png se não existir; foque no 192x192 (padrão moderno) -->
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="src/main.jsx"></script>
+    <script type="module" src="/src/main.jsx"></script>  <!-- Com barra / no início, sem a subpasta aqui -->  <!-- correção principal -->
   </body>
 </html>

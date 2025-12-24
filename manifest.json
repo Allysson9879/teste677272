@@ -16,7 +16,7 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/teste677272/icons/finanzen-512.png",  <!-- adicione um de 512x512 se tiver -->
+      "src": "/teste677272/icons/finanzen-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -27,12 +27,14 @@
     {
       "name": "Carteira",
       "short_name": "Carteira",
+      "description": "Abrir Carteira",
       "url": "/teste677272/Wallet",
       "icons": [{ "src": "/teste677272/icons/shortcut-wallet.png", "sizes": "192x192" }]
     },
     {
       "name": "Transações",
       "short_name": "Transações",
+      "description": "Ver transações",
       "url": "/teste677272/Transactions",
       "icons": [{ "src": "/teste677272/icons/shortcut-transactions.png", "sizes": "192x192" }]
     }
